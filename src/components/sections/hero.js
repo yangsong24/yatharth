@@ -4,6 +4,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { email } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section } from '@styles';
+import { siteUrl } from '../../config';
 const { colors, fontSizes, fonts, navDelay, loaderDelay } = theme;
 
 const StyledContainer = styled(Section)`
@@ -87,7 +88,7 @@ const Hero = ({ data }) => {
 
     <div style={{ transitionDelay: '500ms' }}>
 
-      <StyledEmailLink  href = '/covidindia'> COVID-19 INDIA Dashboard by YB</StyledEmailLink>
+      <StyledEmailLink  href = {`${siteUrl}covidindia`}> COVID-19 INDIA Dashboard by YB</StyledEmailLink>
 
     </div>
     );
