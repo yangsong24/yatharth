@@ -7,7 +7,7 @@ module.exports = {
     description: config.siteDescription,
     image: '/images/og.png',
   },
-  //pathPrefix: `/yatharth`,
+  pathPrefix: `/yatharth`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
