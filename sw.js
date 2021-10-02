@@ -27,27 +27,35 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-b6a5ddd9c63a2c5e0934.js"
+    "url": "webpack-runtime-87f32e3cfba24e425fee.js"
   },
   {
     "url": "framework-5637c01b110ac2453ea2.js"
   },
   {
-    "url": "app-266fef8bbc31a5bdad96.js"
+    "url": "app-f73b6339727bb995464c.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "c2656ca37ff03680e231778abc8fb3b0"
+    "revision": "3b02f2b8dd7e66dd3ae2254d80a9d518"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-ce91f9b092da7e94502f.js"
+  },
+  {
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "f2c002077289a7e1ac538802bc7f5314"
+  },
+  {
+    "url": "page-data/app-data.json",
+    "revision": "993074381b495f96d9fc27a6ce9bbbfe"
   },
   {
     "url": "polyfill-abe4b97fc45cc1af427c.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "610cb46a342a8ddeb7e56048c4cbe13a"
+    "revision": "92e96abe47a88f24716e7d21eefa9d38"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -134,12 +142,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/yatharth`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-266fef8bbc31a5bdad96.js`))) {
+  if (!resources || !(await caches.match(`/yatharth/app-f73b6339727bb995464c.js`))) {
     return await fetch(event.request)
   }
 
@@ -152,7 +160,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/yatharth/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
