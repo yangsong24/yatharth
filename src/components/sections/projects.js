@@ -151,29 +151,39 @@ const Projects = ({ data }) => {
   const projects = data.filter(({ node }) => node);
   const firstSix = projects.slice(0, GRID_LIMIT);
   const projectsToShow = showMore ? projects : firstSix;
+  
+  //const mySpecialWindowFunction = () => {
 
+    /* START HACK */
+    //if (!process.env.BROWSER) {
+   //   global.window = {}; // Temporarily define window for server-side
+    //}
+    /* END HACK */
+  
+    //return /msie [6-9]\b/.test(window.navigator.userAgent.toLowerCase());
+  //};
 
-var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-if (isMobile) {
-        return (
-              <StyledContainer>
+//var isMobile = mySpecialWindowFunction(/iPhone|iPad|iPod|Android/i);
+//if (isMobile) {
+        //return (
+       //       <StyledContainer>
 
-              </StyledContainer>
-         );
-}
-if (!isMobile) {
+        //      </StyledContainer>
+        // );<StyledTitle ref={revealTitle}>COVID-19 INDIA DASHBOARD</StyledTitle>
+              //<StyledArchiveLink to="" ref={revealArchiveLink}>
+              //<iframe width="1024" height="804" src="https://app.powerbi.com/view?r=eyJrIjoiNGQ5YWRiNzYtODEwNS00YmMzLTg1OGEtZmI3N2UxNzM4NjgzIiwidCI6ImQ5MjM1MjY5LTgwNDAtNGQ4NS05MzIxLTAxNmZkNTEzYzIwNiJ9&pageName=ReportSectionb3beab5f5e4e00e94a25" frameborder="1000" allowFullScreen="true"></iframe>
+              //</StyledArchiveLink>
+//}
+//i//f (!isMobile) {
 
    return (
                <StyledContainer id="corona">
-              <StyledTitle ref={revealTitle}>COVID-19 INDIA DASHBOARD</StyledTitle>
-              <StyledArchiveLink to="" ref={revealArchiveLink}>
-              <iframe width="1024" height="804" src="https://app.powerbi.com/view?r=eyJrIjoiNGQ5YWRiNzYtODEwNS00YmMzLTg1OGEtZmI3N2UxNzM4NjgzIiwidCI6ImQ5MjM1MjY5LTgwNDAtNGQ4NS05MzIxLTAxNmZkNTEzYzIwNiJ9&pageName=ReportSectionb3beab5f5e4e00e94a25" frameborder="1000" allowFullScreen="true"></iframe>
-              </StyledArchiveLink>
+              
               </StyledContainer>
         );
 
 
-}
+
  //render() {
 
   //;

@@ -60,7 +60,7 @@ module.exports = {
 
     {
        name: 'Covid-19 India',
-       url: '/#corona'
+       url: '/covidindia'
     }
   ],
 

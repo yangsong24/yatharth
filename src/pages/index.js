@@ -16,12 +16,12 @@ const IndexPage = ({ location, data }) => (
       <About data={data.about.edges} />
       <Jobs data={data.jobs.edges} />
       <Featured data={data.featured.edges} />
-      <Projects data={data.projects.edges} />
+      
       <Contact data={data.contact.edges} />
     </StyledMainContainer>
   </Layout>
 );
-//
+//<Projects data={data.projects.edges} />
 IndexPage.propTypes = {
   location: PropTypes.object.isRequired,
   data: PropTypes.object.isRequired,

@@ -87,6 +87,7 @@
              test: /miniraf/,
              use: loaders.null(),
            },
+           
          ],
        },
      });
