@@ -20,7 +20,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'Yatharth Bansal',
-        short_name: 'Yatharth',
+        short_name: 'Yatharth Bansal',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
