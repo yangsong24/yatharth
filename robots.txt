@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: http://yatharthbansal.com/yatharth/sitemap/sitemap-index.xml
-Host: yatharthbansal.com
+Sitemap: https://yatharthbansal.com/sitemap/sitemap-index.xml
+Host: https://yatharthbansal.com
