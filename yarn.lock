@@ -5544,7 +5544,7 @@
     "minimatch" "3.0.4"
     "web-vitals" "^1.1.2"
 
-"gatsby-plugin-image@^1.4.0":
+"gatsby-plugin-image@^1.14.0":
   "integrity" "sha512-o5D4k4OQDdzXQu1VUWM4TLmi86D2fnGNxLKc/SgvGiqCr8e/opNJcWHELU52XQ11zqSU0jzOkDRQGu9tWesRlg=="
   "resolved" "https://registry.npmjs.org/gatsby-plugin-image/-/gatsby-plugin-image-1.14.0.tgz"
   "version" "1.14.0"
@@ -5630,7 +5630,7 @@
     "@babel/runtime" "^7.14.0"
     "generate-robotstxt" "^8.0.3"
 
-"gatsby-plugin-sharp@^3.0.0-next.0", "gatsby-plugin-sharp@^3.4.1":
+"gatsby-plugin-sharp@^3.0.0-next.0", "gatsby-plugin-sharp@^3.14.0":
   "integrity" "sha512-i4jrmOElr0mB2tWlpfxzX72zimiheGny0GF+jPPYY77Uoie43AH7GGZm6wyhdtqKlphYDhgatOMU7xeiWQar6g=="
   "resolved" "https://registry.npmjs.org/gatsby-plugin-sharp/-/gatsby-plugin-sharp-3.14.0.tgz"
   "version" "3.14.0"
@@ -5875,7 +5875,7 @@
     "unist-util-select" "^3.0.4"
     "unist-util-visit" "^2.0.3"
 
-"gatsby-transformer-sharp@^3.4.0":
+"gatsby-transformer-sharp@^3.14.0":
   "integrity" "sha512-p0bBu4Sheo4MrrrTRXEu+jcOvsvKmzr1Wc/CQ9VD1U7vTPj74a8JiMJ9GrXrkei5qcXXeXACjBTu5F0Hyg6qMQ=="
   "resolved" "https://registry.npmjs.org/gatsby-transformer-sharp/-/gatsby-transformer-sharp-3.14.0.tgz"
   "version" "3.14.0"
