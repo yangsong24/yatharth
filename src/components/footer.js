@@ -106,7 +106,7 @@ const Footer = () => {
           target="_blank"
           rel="nofollow noopener noreferrer">
           <div>
-            Initial Designed &amp; Base Built by Brittany Chiang<br></br>
+            Initial Site Theme by Brittany Chiang<br></br>
             Revised & Redsigned by Yatharth Bansal<br></br>
             Thanks Brittany
           </div>

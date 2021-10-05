@@ -10,4 +10,4 @@ url: 'https://spark.iitr.ac.in/'
 - Researched in depth about various techniques for efficient channel estimation.
 - Built a new model using deep learning based denoising for channel estimation of massive MIMO
   communication systems.
-- Check out my post on [IITR](https://www.linkedin.com/posts/yatharth-bansal-b919671b4_research-iitroorkee-wirelesscommunications-activity-6847462077444030464-GJmJ).
+- Check out my thoughts about research in [IITR](https://www.linkedin.com/posts/yatharth-bansal-b919671b4_research-iitroorkee-wirelesscommunications-activity-6847462077444030464-GJmJ).

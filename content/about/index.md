@@ -5,7 +5,7 @@ skills:
   - Matlab
   - Python
   - Pytorch
-  - Analytics
+  - C programming
   - Power Bi
   - Deep learning
 ---

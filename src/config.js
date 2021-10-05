@@ -3,11 +3,11 @@ module.exports = {
   siteDescription:
     'Yatharth Bansal is a Telecom Engineer who is a proactive learner.',
   siteKeywords:
-    'Yatharth Bansal, Yatharth, Bansal, Yang Song, covid-19, covid india, covid dashboard, yang, yatharth24, data analyst, telecom, web developer, iit roorkee, EY, china,yangsong , bit, mesra, deoghar',
+    'Yatharth Bansal, yatharthbansal, yangsong,yatharth, covid-19, covid india, covid dashboard, yang, yatharth24, data analyst, telecom, web developer, iit roorkee, EY, china,yangsong , bit',
   siteUrl: 'https://yatharthbansal.com/',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-209106714-1',
-  googleVerification: 'G-JBPG8DZCQS',
+  googleVerification: 'k1o9gX2IIjVOQElcFStaSptD9sBxMqZ3FcS5Wo_HxSQ',
   name: 'Yatharth Bansal',
   location: 'Chandigarh, India',
   email: 'yatharthbansalybs@gmail.com',

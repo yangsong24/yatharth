@@ -3,11 +3,12 @@ import { graphql } from 'gatsby';
 import { Helmet } from 'react-helmet';
 import PropTypes from 'prop-types';
 import sr from '@utils/sr';
-import { srConfig } from '@config';
+import { srConfig, siteUrl  } from '@config';
 import { Layout } from '@components';
 import { FormattedIcon } from '@components/icons';
 import styled from 'styled-components';
 import { theme, mixins, media, Main } from '@styles';
+
 const { colors, fonts, fontSizes } = theme;
 
 const StyledMainContainer = styled(Main)`
@@ -72,7 +73,7 @@ const ArchivePage = ({ location, data }) => {
     <Layout location={location}>
       <Helmet>
         <title>Covid-19 India DASHBOARD | Yatharth Bansal</title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href= {`${siteUrl}`} />
       </Helmet>
 .
       <StyledMainContainer>
@@ -82,8 +83,10 @@ const ArchivePage = ({ location, data }) => {
              <iframe width="1024" height="804" src="https://app.powerbi.com/view?r=eyJrIjoiNGQ5YWRiNzYtODEwNS00YmMzLTg1OGEtZmI3N2UxNzM4NjgzIiwidCI6ImQ5MjM1MjY5LTgwNDAtNGQ4NS05MzIxLTAxNmZkNTEzYzIwNiJ9&pageName=ReportSectionb3beab5f5e4e00e94a25" frameborder="100" allowFullScreen="true"></iframe>
 
         </header>
-        Data has been sourced from covid19indiaapi and data is based upon a one day lag.
-        Data shows daily cases, confirmed cases and analysis of vaccination statewise and impact of vaccination on India.
+        <p> Data has been sourced from covid19indiaapi and data is based upon a one day lag. </p>
+        <p> Data visualization shows daily cases, confirmed cases and analysis of vaccination statewise, and impact of vaccination on India.</p>
+        <p> If any questions regarding data, please feel free to contact me and if you like what I do, show some support by Buy me coffee.</p>
+        
 </StyledMainContainer>
 
     </Layout>
