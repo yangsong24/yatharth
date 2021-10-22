@@ -17,4 +17,4 @@ Studied supervised learning (parametric/non-parametric algorithms, support vecto
 
 Also learned about advanced optimization and multiclass class classification and overcoming problems of overfitting and false positives for a given data set. Worked on logistic regression model using MATLAB (ex. with housing parameter data)
 
-Performed case studies on numerous amount of applications used like image classifier, health care prediction, audio, database mining, and other areas.
+Performed case studies on numerous applications used like image classifier, health care prediction, audio, database mining, and other areas.

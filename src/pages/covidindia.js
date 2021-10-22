@@ -79,12 +79,13 @@ const ArchivePage = ({ location, data }) => {
       <StyledMainContainer>
         <header ref={revealTitle}>
           <h1 className="big-title">COVID-19 INDIA DASHBOARD</h1>
-          <p className="subtitle">Covid-19 analysis of India on a daily basis.</p>
+          <p className="subtitle">Covid-19 analysis of India on a daily basis. (Service deprecated as of now.)</p>
              <iframe width="1024" height="804" src="https://app.powerbi.com/view?r=eyJrIjoiNGQ5YWRiNzYtODEwNS00YmMzLTg1OGEtZmI3N2UxNzM4NjgzIiwidCI6ImQ5MjM1MjY5LTgwNDAtNGQ4NS05MzIxLTAxNmZkNTEzYzIwNiJ9&pageName=ReportSectionb3beab5f5e4e00e94a25" frameborder="100" allowFullScreen="true"></iframe>
 
         </header>
+        <p> Dashboard deprecated as of now due to <a href={"https://blog.covid19india.org/2021/08/07/end/"}>covid19india API walking into sunset</a> .</p>
         <p> Data has been sourced from covid19indiaapi and data is based upon a one day lag. </p>
-        <p> Data visualization shows daily cases, confirmed cases and analysis of vaccination statewise, and impact of vaccination on India.</p>
+        <p> Data visualization shows daily cases, confirmed cases, and analysis of vaccination statewise, and the impact of immunization on India.</p>
         <p> If any questions regarding data, please feel free to contact me and if you like what I do, show some support by Buy me coffee.</p>
         
 </StyledMainContainer>

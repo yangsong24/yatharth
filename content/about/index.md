@@ -10,9 +10,8 @@ skills:
   - Deep learning
 ---
 
-A passionate and enthusiastic engineer student who thrives to learn and adapt to new technological developments.
-I have researched in the field of wireless communication systems and my current research interests lie in the field of wireless
-communications, multi-antenna systems, and data science. 
+A passionate and enthusiastic engineer student who thrives on learning and adapting to new technological developments.
+I have studied in the field of wireless communication systems, and my current research interests lie in the intersection of wireless communications, multi-antenna systems and machine learning, and data science. 
 
 I am focused on learning and gaining more knowledge and experience.
 I believe in commitment, dedication, and achieving targets.
