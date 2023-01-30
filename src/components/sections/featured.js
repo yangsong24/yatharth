@@ -174,7 +174,7 @@ const StyledProject = styled.div`
   &:nth-of-type(odd) {
     ${StyledContent} {
       grid-column: 7 / -1;
-      text-align: right;
+      text-align: justify;
       ${media.thone`
         grid-column: 1 / -1;
         padding: 40px 40px 30px;

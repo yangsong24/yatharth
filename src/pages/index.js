@@ -1,9 +1,10 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import { Layout, Hero, About, Jobs, Featured, Projects, Contact } from '@components';
+import { Layout, Hero, About, Jobs, Featured, Extras, Contact } from '@components';
 import styled from 'styled-components';
 import { Main } from '@styles';
+
 
 const StyledMainContainer = styled(Main)`
   counter-reset: section;
@@ -16,7 +17,7 @@ const IndexPage = ({ location, data }) => (
       <About data={data.about.edges} />
       <Jobs data={data.jobs.edges} />
       <Featured data={data.featured.edges} />
-      
+      <Extras data={data.extras.edges} />
       <Contact data={data.contact.edges} />
     </StyledMainContainer>
   </Layout>
@@ -88,7 +89,7 @@ export const pageQuery = graphql`
             title
             cover {
               childImageSharp {
-                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#64ffda" }) {
+                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#ffffff" }) {
                   ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
               }
@@ -115,6 +116,17 @@ export const pageQuery = graphql`
             tech
             github
             external
+          }
+          html
+        }
+      }
+    }
+    extras: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/extras/" } }) {
+      edges {
+        node {
+          frontmatter {
+            title
+            buttonText
           }
           html
         }

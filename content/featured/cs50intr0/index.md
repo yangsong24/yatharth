@@ -1,6 +1,6 @@
 ---
 date: '2'
-title: 'Cs50-Intro to Computer Science'
+title: 'cs--50Intro to Computer Science'
 cover: 'cs50.jpeg'
 github: 'https://github.com/yangsong24/CS50-final-project-2020'
 external: 'https://cs50.harvard.edu/x/2020/'

@@ -119,10 +119,11 @@ const StyledHighlight = styled.span`
 `;
 const StyledTabContent = styled.div`
   position: relative;
-  width: 100%;
+  width: 80%;
   height: auto;
   padding-top: 12px;
   padding-left: 30px;
+  text-align:justify;
   ${media.tablet`padding-left: 20px;`};
   ${media.thone`padding-left: 0;`};
 
@@ -149,10 +150,11 @@ const StyledJobDetails = styled.h5`
   font-weight: normal;
   letter-spacing: 0.05em;
   color: ${colors.lightSlate};
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   svg {
     width: 15px;
   }
+  
 `;
 
 const Jobs = ({ data }) => {

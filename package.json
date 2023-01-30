@@ -2,7 +2,7 @@
   "name": "v",
   "description": "Personal Website V",
   "version": "0.0.0",
-  "author": "Yatharth Bansal <yatharthbansalybs@gmail.com>",
+  "author": "Yatharth Bansal <yatharth.bansal@columbnia.edu>",
   "repository": {
     "type": "git",
     "url": "https://github.com/yangsong24/yatharth"
@@ -61,7 +61,8 @@
     "react-transition-group": "^4.3.0",
     "scrollreveal": "^4.0.5",
     "smooth-scroll": "^16.1.0",
-    "styled-components": "^5.3.0"
+    "styled-components": "^5.3.0",
+    "typed.js": "^2.0.12"
   },
   "devDependencies": {
     "@babel/core": "^7.14.0",

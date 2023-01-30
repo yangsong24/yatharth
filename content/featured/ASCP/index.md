@@ -13,6 +13,10 @@ tech:
 showInProjects: true
 ---
 
-Industrial hands-on experience on tools like Burpsuite, n-map, Linux Kali, Metasploit, Wireshark, etc.
+<!-- Industrial hands-on experience on tools like Burpsuite, n-map, Linux Kali, Metasploit, Wireshark, etc.
 Finding out vulnerabilities and exploiting them. Creating attack reports and mitigating attacks.
-Gained three Continuing Education Units (CEU).
+Gained three Continuing Education Units (CEU). -->
+
+- Practical Exposure to Cybersecurity Tools: Burpsuite, n-map, Linux Kali, Metasploit, Wireshark, etc.
+- Identifying Vulnerabilities & Exploitation of same. Crafting Attack Reports & Mitigation.
+- 3 Continuing Education Units CEUs Earned.

@@ -1,12 +1,12 @@
 ---
-date: '2021-08-1'
+date: '2022-09-1'
 title: 'Research Intern'
 company: 'Indian Institute of Technology, Roorkee'
-range: 'April - July 2021'
+range: 'Aug 2021 - Sep 2022'
 url: 'https://spark.iitr.ac.in/'
 ---
 
-- Worked upon " Deep learning based channel estimation for Massive MIMO systems."
-- Studied in-depth about various techniques for efficient channel estimation.
-- Built a new model using deep learning based denoising for channel estimation of OFDM Massive MIMO communication systems achieving superior performance.
-- Check out my thoughts about research in [IITR](https://www.linkedin.com/posts/yatharth-bansal-b919671b4_research-iitroorkee-wirelesscommunications-activity-6847462077444030464-GJmJ).
+- Researched on new emerging technology of Cell-free Massive MIMO systems for beyond 5g systems
+- Implemented LS and MMSE channel estimation in MATLAB for Cell-free Massive MIMO system
+- Investigated problem of channel estimation leveraging deep learning techniques, focusing on operating 2 untrained models including Deep Decoder and Deep Image Prior for denoising received signal
+- Authored and presented a research manuscript titled *"An Untrained DNN Denoiser for Uplink Channel Estimation in Multicell Massive MIMO System"* at [33rd IEEE PIMRC conference](https://ieeexplore.ieee.org/document/9978046) , showcasing expertise in field and contributing to advancements in technology through collaboration with supervisor

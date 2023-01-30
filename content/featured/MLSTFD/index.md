@@ -13,8 +13,8 @@ tech:
 showInProjects: true
 ---
 
-Studied supervised learning (parametric/non-parametric algorithms, support vector machines, neural networks). Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning).
+- Studied supervised learning (logistic regression, support vector machines, neural networks). Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning).
 
-Also learned about advanced optimization and multiclass class classification and overcoming problems of overfitting and false positives for a given data set. Worked on logistic regression model using MATLAB (ex. with housing parameter data)
+- Also learned about advanced optimization and multiclass class classification and overcoming problems of overfitting and false positives for a given data set. Worked on logistic regression model using MATLAB (ex. with housing parameter data)
 
-Performed case studies on numerous applications used like image classifier, health care prediction, audio, database mining, and other areas.
+- Performed case studies on numerous applications used like image classifier, health care prediction, database mining, and other areas.

@@ -1,25 +1,25 @@
 module.exports = {
-  siteTitle: 'Yatharth Bansal | Telecom Engineer',
+  siteTitle: 'Yatharth Bansal | Data Scientist',
   siteDescription:
-    'Yatharth Bansal is a Telecom Engineer who is a proactive learner.',
+    'Yatharth Bansal`s Portfolio | Transforming Data into Action: Partner with Me!',
   siteKeywords:
-    'Yatharth Bansal, yatharthbansal, yangsong,yatharth, covid-19, covid india, covid dashboard, yang, yatharth24, data analyst, telecom, web developer, iit roorkee, EY, china,yangsong , bit',
+    'Yatharth Bansal, yatharthbansal, yangsong, yatharth, columbia, columbiauniversity, electrcial, datascience, datascientist, covid-19, covid india, covid dashboard, yang, yatharth24, data analyst, telecom, web developer, iit roorkee, EY, china,yangsong , bit',
   siteUrl: 'https://yatharthbansal.com/',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-209106714-1',
+  googleAnalyticsID: 'G-JBPG8DZCQS',
   googleVerification: 'k1o9gX2IIjVOQElcFStaSptD9sBxMqZ3FcS5Wo_HxSQ',
   name: 'Yatharth Bansal',
-  location: 'Chandigarh, India',
-  email: 'yatharthbansalybs@gmail.com',
+  location: 'New York, NY',
+  email: 'yatharth.bansal@columbia.edu',
   github: 'https://github.com/yangsong24',
-  linkedin:'https://www.linkedin.com/in/yatharth-bansal-b919671b4/',
-  //twitterHandle: '',
+  linkedin:'https://www.linkedin.com/in/yatharth-bansal/',
+  //twitterHandle: '',Driving Impact with Data: Connect with Me, Your Data Scientist!
 
   socialMedia: [
 
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/yatharth-bansal-b919671b4/',
+      url: 'https://www.linkedin.com/in/yatharth-bansal/',
     },
    // {
      // name: 'GitHub',
@@ -50,8 +50,12 @@ module.exports = {
       url: '/#jobs',
     },
     {
-      name: 'Courses',
+      name: 'Featured',
       url: '/#projects',
+    },
+    {
+      name: 'Accomplishments',
+      url: '/#extras',
     },
     {
       name: 'Contact',

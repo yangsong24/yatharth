@@ -5,8 +5,9 @@ import { email } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section } from '@styles';
 import { siteUrl } from '../../config';
-const { colors, fontSizes, fonts, navDelay, loaderDelay } = theme;
+import Img from 'gatsby-image';
 
+const { colors, fontSizes, fonts, navDelay, loaderDelay } = theme;
 const StyledContainer = styled(Section)`
   ${mixins.flexCenter};
   flex-direction: column;
@@ -36,7 +37,7 @@ const StyledTitle = styled.h2`
   ${media.phone`font-size: 40px;`};
 `;
 const StyledSubtitle = styled.h3`
-  font-size: 80px;
+  font-size: 65px;
   line-height: 1.1;
   color: ${colors.slate};
   ${media.desktop`font-size: 70px;`};
@@ -47,7 +48,8 @@ const StyledSubtitle = styled.h3`
 const StyledDescription = styled.div`
   margin-top: 25px;
   width: 50%;
-  max-width: 640px;
+  max-width: 760px;
+  text-align:justify;
   a {
     ${mixins.inlineLink};
   }
@@ -60,14 +62,16 @@ const StyledEmailLink = styled.a`
 
 const Hero = ({ data }) => {
   const [isMounted, setIsMounted] = useState(false);
-
+  
+  
   useEffect(() => {
     const timeout = setTimeout(() => setIsMounted(true), navDelay);
     return () => clearTimeout(timeout);
   }, []);
 
   const { frontmatter, html } = data[0].node;
-
+  const { avatar } = frontmatter;
+  
   const one = () => (
     <StyledOverline style={{ transitionDelay: '100ms' }}>{frontmatter.title}</StyledOverline>
   );
@@ -93,11 +97,13 @@ const Hero = ({ data }) => {
     </div>
     );
 
+  
 /*//{(isMobile ===true) ?:'/#corona'}*/
 
 
 
   const items = [one, two, three, four, five];
+  
 
   return (
     <StyledContainer>
@@ -109,6 +115,7 @@ const Hero = ({ data }) => {
             </CSSTransition>
           ))}
       </TransitionGroup>
+      
     </StyledContainer>
   );
 };
