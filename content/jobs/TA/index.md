@@ -1,6 +1,6 @@
 ---
 date: '2023-01-01'
-title: 'Teaching Assistant'
+title: 'Graduate Teaching Assistant'
 company: 'Columbia University'
 range: 'Jan 2023 - Present'
 # url: ''

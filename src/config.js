@@ -3,10 +3,10 @@ module.exports = {
   siteDescription:
     'Yatharth Bansal`s Portfolio | Transforming Data into Action: Partner with Me!',
   siteKeywords:
-    'Yatharth Bansal, yatharthbansal, yangsong, yatharth, columbia, columbiauniversity, electrcial, datascience, datascientist, covid-19, covid india, covid dashboard, yang, yatharth24, data analyst, telecom, web developer, iit roorkee, EY, china,yangsong , bit',
+    'Yatharth Bansal, yatharthbansal, yangsong, yatharth, columbia, columbiauniversity, electrical, datascience, datascientist, covid-19, covid india, covid dashboard, yang, yatharth24, data analyst, iit roorkee, EY, china,yangsong , bit',
   siteUrl: 'https://yatharthbansal.com/',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'G-JBPG8DZCQS',
+  googleAnalyticsID: 'UA-209106714-1',
   googleVerification: 'k1o9gX2IIjVOQElcFStaSptD9sBxMqZ3FcS5Wo_HxSQ',
   name: 'Yatharth Bansal',
   location: 'New York, NY',

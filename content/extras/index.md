@@ -3,7 +3,7 @@
 # buttonText: 'Mail Me'
 ---
 
-**Awards:** Recipient of [Tesla Scholarship award](https://www.ee.columbia.edu/nikola-tesla-electrical-engineering-scholar-program)
+**Awards:** Recipient of [Tesla Scholarship award](https://www.ee.columbia.edu/nikola-tesla-electrical-engineering-scholar-program) from Columbia University
 
 **Awards:** Recipient of HUST Outstanding International Students (Academic Excellence) award for 2020/2021 Academic Year
 
