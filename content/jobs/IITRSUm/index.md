@@ -1,7 +1,7 @@
 ---
 date: '2021-08-1'
 title: 'Summer Research Intern (SPARK)'
-company: 'Indian Institute of Technology, Roorkee'
+company: 'Indian Institute of Technology Roorkee'
 range: 'Apr 2021 - Jul 2021'
 url: 'https://spark.iitr.ac.in/'
 ---

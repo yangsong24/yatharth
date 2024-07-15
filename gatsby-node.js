@@ -4,6 +4,7 @@
  * Implement Gatsby's Node APIs in this file.
  *
  * See: https://www.gatsbyjs.org/docs/node-apis/
+ * // npm run deploy for pulbishing and making changes
  */
 
  const path = require('path');
@@ -108,3 +109,23 @@
      },
    });
  };
+ exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+
+  const typeDefs = `
+    type MarkdownRemark implements Node {
+      frontmatter: Frontmatter
+    }
+    type Frontmatter {
+      title: String
+      adventures: [Adventure]
+    }
+    type Adventure {
+      image: File @fileByRelativePath
+      title: String
+      description: String
+    }
+  `;
+
+  createTypes(typeDefs);
+};

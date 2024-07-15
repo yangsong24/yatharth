@@ -1,6 +1,6 @@
 ---
 date: '2'
-title: 'cs--50Intro to Computer Science'
+title: 'CS50 Computer Science'
 cover: 'cs50.jpeg'
 github: 'https://github.com/yangsong24/CS50-final-project-2020'
 external: 'https://cs50.harvard.edu/x/2020/'
@@ -14,6 +14,6 @@ showInProjects: true
 ---
 
 
-- Improved computational thinking skills, algorithmic understanding and programming efficiency.
-- Studied concepts like abstraction, algorithms, data structures, resource management, security, software engineering, and web development.
-- Learnt the implementation of database structure using SQL in a very innovative problem set project called [cs50 finance](https://github.com/yangsong24/CS50-Finance-stock-portfolio-2020) which is a virtual website for selling and buying of stocks with real time accurate prices.
+- Enhanced computational thinking capabilities, deepened algorithmic comprehension, and honed programming efficiency
+- Delved into key concepts such as abstraction, algorithms, data structures, resource management, security, software engineering, and web development
+- Learnt the implementation of database structure using SQL through an innovative problem set project called [cs50 finance](https://github.com/yangsong24/CS50-Finance-stock-portfolio-2020), a virtual platform for real-time stock trading

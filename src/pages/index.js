@@ -5,6 +5,7 @@ import { Layout, Hero, About, Jobs, Featured, Extras, Contact } from '@component
 import styled from 'styled-components';
 import { Main } from '@styles';
 
+import Personal from '@components/sections/Personal';
 
 const StyledMainContainer = styled(Main)`
   counter-reset: section;
@@ -18,6 +19,7 @@ const IndexPage = ({ location, data }) => (
       <Jobs data={data.jobs.edges} />
       <Featured data={data.featured.edges} />
       <Extras data={data.extras.edges} />
+      <Personal adventures={data.personal.edges[0].node.frontmatter.adventures} />
       <Contact data={data.contact.edges} />
     </StyledMainContainer>
   </Layout>
@@ -132,6 +134,31 @@ export const pageQuery = graphql`
         }
       }
     }
+
+    personal: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/personal/" } }) {
+      edges {
+        node {
+          frontmatter {
+            title
+            adventures {
+              image {
+                childImageSharp {
+                  fluid(maxWidth: 1000) {
+                    ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                  }
+                }
+              }
+              title
+              description
+            }
+          }
+          html
+        }
+      }
+    }
+    
+    
+
     contact: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/contact/" } }) {
       edges {
         node {

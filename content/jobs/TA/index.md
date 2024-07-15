@@ -2,12 +2,12 @@
 date: '2023-01-01'
 title: 'Graduate Teaching Assistant'
 company: 'Columbia University'
-range: 'Jan 2023 - Present'
+range: 'Jan 2023 - May 2023'
 # url: ''
 ---
 
-- GR5074: Projects in Advanced Machine Learning
-- Managed a class of 60 students, contributing classroom support, improving academic performance and student engagement
-- Conducted weekly office hours for lecture reviews and student support, addressing individual student inquiries and concerns, leading to improved understanding and performance in coursework
+- GR5074: Projects in Advanced Machine Learning, Quantitative Methods in the Social Sciences, CU
+- Oversaw a class of 60 having diverse academic backgrounds, bolstering academic performance and understanding of ML models (e.g., scikit-learn, keras)
+- Offered weekly office hours, addressed individual student inquiries, and aided in effective ML model implementation
 
 

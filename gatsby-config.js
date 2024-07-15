@@ -50,6 +50,7 @@ module.exports = {
         name: `projects`,
       },
     },
+    
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -143,9 +144,14 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: 'gatsby-plugin-google-gtag',
       options: {
-        trackingId: config.googleAnalyticsID,
+        trackingIds: [
+          'G-JBPG8DZCQS', // Replace with your GA4 Measurement ID
+        ],
+        pluginConfig: {
+          head: true,
+        },
       },
     },
   ],

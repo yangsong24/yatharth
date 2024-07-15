@@ -1,3 +1,5 @@
+const { property } = require("lodash");
+
 module.exports = {
   siteTitle: 'Yatharth Bansal | Data Scientist',
   siteDescription:
@@ -6,8 +8,8 @@ module.exports = {
     'Yatharth Bansal, yatharthbansal, yangsong, yatharth, columbia, columbiauniversity, electrical, datascience, datascientist, covid-19, covid india, covid dashboard, yang, yatharth24, data analyst, iit roorkee, EY, china,yangsong , bit',
   siteUrl: 'https://yatharthbansal.com/',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-209106714-1',
-  googleVerification: 'k1o9gX2IIjVOQElcFStaSptD9sBxMqZ3FcS5Wo_HxSQ',
+  googleAnalyticsMeasurementID: 'G-JBPG8DZCQS',
+  // googleVerification: 'k1o9gX2IIjVOQElcFStaSptD9sBxMqZ3FcS5Wo_HxSQ',
   name: 'Yatharth Bansal',
   location: 'New York, NY',
   email: 'yatharth.bansal@columbia.edu',
@@ -21,10 +23,10 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/yatharth-bansal/',
     },
-   // {
-     // name: 'GitHub',
-      //url: 'https://github.com/yangsong24',
-    //},
+   {
+     name: 'GitHub',
+      url: 'https://github.com/yangsong24',
+    }
     //{
     //  name: 'Codepen',
     //  url: '',
@@ -56,6 +58,10 @@ module.exports = {
     {
       name: 'Accomplishments',
       url: '/#extras',
+    },
+    {
+      name: 'Adventures',
+      url: '/#personal',
     },
     {
       name: 'Contact',
@@ -92,3 +98,4 @@ module.exports = {
     viewOffset: { top: 0, right: 0, bottom: 0, left: 0 },
   }),
 };
+// add g4 proprerty to config 
