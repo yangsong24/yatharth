@@ -5,8 +5,8 @@ module.exports = {
   siteDescription:
     'Yatharth Bansal`s Portfolio | Transforming Data into Action: Partner with Me!',
   siteKeywords:
-    'Yatharth Bansal, yatharthbansal, yangsong, yatharth, columbia, columbiauniversity, electrical, datascience, datascientist, covid-19, covid india, covid dashboard, yang, yatharth24, data analyst, iit roorkee, EY, china,yangsong , bit',
-  siteUrl: 'https://yatharthbansal.com/',
+    'Yatharth Bansal, yatharthbansal, yangsong, yatharth, columbia, columbiauniversity, electrical, datascience, datascientist, covid-19, covid india, covid dashboard, yatharth24, data analyst, iit roorkee, EY, china,yangsong',
+  siteUrl: 'https://yangsong24.github.io/yatharth/',
   siteLanguage: 'en_US',
   googleAnalyticsMeasurementID: 'G-JBPG8DZCQS',
   // googleVerification: 'k1o9gX2IIjVOQElcFStaSptD9sBxMqZ3FcS5Wo_HxSQ',
